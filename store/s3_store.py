@@ -1,7 +1,6 @@
 from store.base_store import BaseStore
 
-
-class ModelStore(BaseStore):
+class S3Store(BaseStore):
     def get(self):
         pass
 

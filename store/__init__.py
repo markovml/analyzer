@@ -1,8 +1,8 @@
-from store.data_store import DataStore
-from store.model_store import ModelStore
+from store.data_s3_store import DataS3Store
+from store.model_s3_store import ModelS3Store
 
 def get_dataset_metadata_store():
-    return DataStore()
+    return DataS3Store()
 
 def get_model_metadata_store():
-    return ModelStore
+    return ModelS3Store
