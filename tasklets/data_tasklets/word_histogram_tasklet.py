@@ -17,4 +17,3 @@ class WordHistogramTasklet(TaskletForData):
 
     def write_results(self, analysis_results):
         pass
-

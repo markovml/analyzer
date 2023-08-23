@@ -101,4 +101,3 @@ class TaskletForModel(Tasklet):
     @abstractmethod
     def write_results(self, analysis_results):
         pass
-
