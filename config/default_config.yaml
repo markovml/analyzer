@@ -1,0 +1,6 @@
+resources:
+  cpu: 8
+  memory: 16GiB
+
+network:
+  subnet: 255.255.0.0
